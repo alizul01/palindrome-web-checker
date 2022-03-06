@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,500,600,700&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #191919;
+}
+
+.body-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 94vh;
+}
+
+.wrapper {
+  max-width: 500px;
+  background: white;
+  padding: 20px 25px 15px 25px;
+  border-radius: 20px;
+}
+
+.inactive {
+  opacity: 0.6;
+}
+
+.btn-color {
+  background-color: #C84B31;
+  width: 100%;
+}
+
+.info-palindrome span {
+  color: #C84B31;
+  margin-bottom: 10px;
+}
+
+.inputs input {
+  height: 60px;
+}
+
+::-moz-selection {
+  background: #C84B31;
+  color: white;
+}
+
+::selection {
+  background: #C84B31;
+  color: white;
+}
+
+.info-palindrome {
+  text-align: center;
+  display: none;
+}
+
+.active {
+  width: 100%;
+  color: #C84B31;
+}
+/*# sourceMappingURL=style.css.map */

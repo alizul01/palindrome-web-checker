@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <link rel="stylesheet" href="assets/style/style.css" />
+    <link rel="shortcut icon" href="assets/img/book.png" type="image/x-icon">
+    <title> Palindrome Checker </title>
+    <meta name="description" content="Check if a word or sentence is a palindrome or not." />
+
+</head>
+
+<body>
+    <div style="background-color: #222831;" class="container-fluid">
+        <nav class="navbar navbar-expand-md navbar-expand-lg navbar-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="assets/img/book.png" alt="" width="30">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">Disabled</a>
+                        </li>
+                    </ul>
+                    <div class="navbar-nav ms-auto">
+                        <a class="nav-link me-4" href="#">Login</a>
+                        <a class="nav-link me-4" href="#">Sign Up</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="body-wrapper">
+            <div class="wrapper">
+                <h1>Palindrome Checker</h1>
+                <p>
+                    Enter a word or sentence below to check if it is a palindrome or not. Made by <a href="https://www.github.com/alizul01" target="_blank">Alizul</a>
+                </p>
+
+                <!-- input placeholder='enter text/sentences/number' -->
+                <form class="inputs">
+                    <div class="form-group">
+                        <input id="user-input" type="text" class="mb-3 form-control" name="text" placeholder="Enter a text, sentences, or number" />
+                    </div>
+                    <button id="check-button" type="submit" class="mb-3 btn btn-color text-white inactive">Check</button>
+                </form>
+                <p id="info-palindrome" class="mt-2 info-palindrome">
+                    Correct! <span class="info-txt">
+                        'madam'
+                    </span> is a palindrome.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
